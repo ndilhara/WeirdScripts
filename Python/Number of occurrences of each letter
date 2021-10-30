@@ -1,0 +1,9 @@
+def count_dup(string_):
+        """This function return dictionary of occurrences of each letter in a given string"""
+        my_dict={}
+        for i in string_:
+             my_dict.update({i:string_.count(i)})
+        return my_dict 
+
+
+print(count_dup("ABCAB"))
